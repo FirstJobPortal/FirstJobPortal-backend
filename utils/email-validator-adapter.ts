@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { EmailValidator } from '../protocols/email-validator'
+import { EmailValidator } from '../src/presentation/protocols/email-validator'
 import validator from 'validator'
 
 export class EmailValidatorAdapter implements EmailValidator {
